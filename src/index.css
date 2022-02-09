@@ -32,12 +32,12 @@ h1{
       /* text-align:  left; */
 }
 .productVolume{
-      /* flex:3 1 10%; */
+      flex:0 1 12vw;
       text-align: right;
 }
 .productPrice{
       margin-right: 2vw;
-      /* flex:2 1 10%; */
+      flex:0 1 12vw;
       text-align: right;
 }
 .product>*{
