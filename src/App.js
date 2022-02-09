@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 import data from "./data.json"
 
 import CategoryList from './category/CategoryList.js';
