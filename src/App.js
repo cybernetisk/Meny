@@ -11,7 +11,9 @@ class App extends React.Component {
             super(props);
             this.cat = data;
       }
+
       render(){
+            document.title = "Meny";
             return (
                   <div className="top">
                         {/* <EditList /> */}
