@@ -1,6 +1,10 @@
-# Getting Started with Create React App
+# Getting Started with -Create React App- Menyen
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+Vi henter all dataen fra src/data.json.
+Her kan man manuellt endre den, eller bruke src/editjson.py. Det er et IN1000-esqe program for å endre jsonen. skal være ganske intuitiv:)
+
 
 ## Available Scripts
 
