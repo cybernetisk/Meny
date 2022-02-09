@@ -1,13 +1,224 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+      margin:auto;
+      background-color:#212020;
+      color:white;
+      font-family:'Roboto', sans-serif;
+      font-size:22px;
+      font-weight:300;
+      overflow-x:hidden;
+      background-repeat:no-repeat;
+      background-position:90% 2%
+}
+#root{
+      width: 95%;
+}
+h1{
+      flex-grow: 1;
+      margin-left:5vw;
+      margin-top:2.5vh;
+      text-align:bottom;
+}
+.product{
+      display:flex;
+      flex-direction:row;
+      margin:0% 0% 2% 1%;
+      width:100%;
+}
+.productName{
+      margin-left:28px;
+      flex-grow:1;
+      display:flex;
+      flex-direction:row;
+      /* text-align:  left; */
+}
+.productVolume{
+      /* flex:3 1 10%; */
+      text-align: right;
+}
+.productPrice{
+      margin-right: 2vw;
+      /* flex:2 1 10%; */
+      text-align: right;
+}
+.product>*{
+      flex-direction: column;
+      display: flex;
+      justify-content: center;
+      /* height:inherit; */
+}
+.Collapsible__contentInner{
+      margin-bottom: 4%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.categoryHeader{
+      /* padding-left:5vw; */
+      display: flex;
+      flex-direction: row;
 }
+.gfImage{
+      height: 0.7em;
+      width: 0.7em;
+      display:inline-block;
+}
+.noPadding{
+      margin:0px;
+      padding:0px;
+}
+ul {
+      list-style:none;
+      padding-left:5vw;
+}
+li {
+      margin-right:4em;
+      width:100%;
+}
+.header{
+      display:flex;
+      height: 10vh;
+}
+.info{
+      font-size:15px;
+      margin-left:3em;
+}
+.arrow {
+      position:relative;
+      top:32px;
+      left:0px;
+      width:25px;
+      height:25px;
+      background:transparent;
+      border-top:4px solid white;
+      border-right:4px solid white;
+      box-shadow:0 0 0 lightgray;
+      transition:all 200ms ease;
+      transform:translate3d(0, -100%, 0) rotate(+45deg) scale(0.5);
+      display:block;
+}
+
+.arrow_open{
+      content:'';
+      transform:translate(0,-100%) rotate(-225deg) scale(0.5);
+}
+#logo {
+      justify-content:right;
+      align-items:right bottom;
+      flex-grow:0;
+      height:3em;
+      margin-top:2vw;
+}
+
+.logo-top{display:flex;
+      width:90vw;
+      justify-content:space-between;
+      margin:80px auto 40px;
+      flex-direction:row-reverse;
+}
+h2{
+      font-weight:400;
+      margin-top:0;
+      margin-bottom:10px;
+      font-size:30px;
+}
+a{
+      font-weight:700;
+      color:white;
+      text-transform:uppercase;
+}
+i{
+      display:block;
+      font-size:15px;
+      color:#ddd;
+}
+.white-bg a{
+      color:black;
+}
+@media only screen and (max-width: 1150px){
+      .rent{
+            width:calc(100% + 250px);
+            margin-left:-125px;
+            margin-right:-125px;
+      }
+      .rent-text{
+            padding:125px;
+      }
+      .rent>div{
+            width:100%;
+      }
+      .foredrag-par{
+            display:none;
+      }
+      .main,.footer{
+            margin-left:125px;
+            margin-right:125px;
+      }
+      .board-desktop{
+            display:none;
+      }
+      .flex-two>.board-name-and-mobile{
+            width:100%;
+      }
+      .board-name-and-mobile a,.board-name-and-mobile>div>div{
+            margin-bottom:0;
+      }
+      .board-name-and-mobile>div>div{
+            color:#9a9a9a;
+      }
+      .board-name-and-mobile div div{
+            display:block;
+            margin-top:0;
+      }
+}
+@media only screen and (max-width: 750px){
+      body{
+            background-image:none;
+      }
+      .flex-two{
+            flex-direction:column;
+      }
+      .flex-two>div{
+            width:100%;
+      }
+       .main>*{
+            margin-bottom:50px;
+      }
+      .main,.footer{
+            margin-left:0;
+            margin-right:0;
+            width:90vw;
+      }
+      .main>h1{
+            width:100%;
+            font-size:40px;
+            letter-spacing:2px;
+      }
+      .main>.teaser{
+            font-size:20px;
+            margin-top:0;
+      }
+      .logo-top{
+            display:flex;
+            width:90vw;
+            margin-top:50px;
+            margin-bottom:20px;
+      }
+      .flex-two>*:last-child{
+            margin-top:30px;
+      }
+      .flex-two>.board-name-and-mobile{
+            margin-top:0;
+      }
+      .rent{
+            width:calc(100% + 10vw);
+      }
+      .rent-text{
+            padding:15vw 5vw;
+      }
+      .footer{
+            flex-direction:column-reverse;
+            margin:10px auto;
+      }
+      .footer>div,.footer .seksseks{
+            width:100%;
+      }
+}
+

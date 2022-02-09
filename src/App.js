@@ -1,25 +1,27 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import data from "./data.json"
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import CategoryList from './category/CategoryList.js';
+import MenuHeader from './misc/MenuHeader.js';
+import Footer from './misc/Footer.js'
+import EditList from './edit/EditList.js'
+
+class App extends React.Component {
+      constructor(props) {
+            super(props);
+            this.cat = data;
+      }
+      render(){
+            return (
+                  <div className="top">
+                        {/* <EditList /> */}
+                        <MenuHeader />
+                        <CategoryList
+                              categories={this.cat} />
+                        <Footer />
+                  </div>
+            );
+      }
 }
-
 export default App;
