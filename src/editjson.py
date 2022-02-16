@@ -92,7 +92,7 @@ def enterCategory(categoryIndex, data):
     cat = data[categoryIndex]
     print("you chose the category:", cat['name'])
     print("What do you want to do?")
-    inp = input("a - add, e - edit, c - change order, x - delete\n>")
+    inp = input("a - add, e - edit, c - change order, m - move to other category x - delete\n>")
 
     if inp == "a":
         cat['products'].append( addProduct(data))
@@ -110,6 +110,20 @@ def enterCategory(categoryIndex, data):
         if ans1 < ans2:
             ans2 -= 1
         l.insert(ans2, item)
+    elif inp == "m":
+        print("Select a product to move:")
+        for i, d in enumerate(cat['products']):
+            print("", i,": ", d['name'])
+        ans1 = int(input("index of item to be moved"))
+        print("Select a category to move to:")
+        for i, d in enumerate(data):
+            print("", i,": ", d['name'])
+        ans2 = int(input("index of category to move to"))
+        l= cat["products"]
+        item = l[ans1]
+        l.remove(item)
+        data[ans2]["products"].insert(ans2, item);
+
     elif inp == "x":
         print("Select a product to delete:")
         for i, d in enumerate(cat['products']):
