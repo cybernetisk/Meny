@@ -11,6 +11,7 @@ def main():
                 "a - add a category \n"+
                 "c - change order \n"+
                 "x - delete \n"+
+                "s - sort all categories \n" +
                 "q - exit \n>")
 
         if ch == 'a':
@@ -42,6 +43,9 @@ def main():
 
         elif ch == "q":
             running = False
+
+        elif ch == "s":
+            sort_all(data)
 
         else:
             try:
@@ -150,6 +154,25 @@ def enterCategory(categoryIndex, data):
 
         elif inp == "q":
             running = False
+
+def sort_all(data):
+    print("How do you want to sort?")
+    incorrect_input = True
+    while incorrect_input:
+        print("0. By price")
+        inp = input()
+        try:
+            inp = int(inp)
+            incorrect_input = False
+        except Exception as e:
+                print()
+                print(e)
+                print("Please enter a number between 0-0")
+                print()
+    if inp == 0:
+        for i in range(len(data)):
+            data[i]["products"].sort(key = lambda x:x["price"])
+        print("Sorted by price!")
 
 def addProduct(cat):
     prod = None
