@@ -11,11 +11,10 @@
              "type":"regular"
           },
           {
-             "priceIntern":50,
              "name":"Aass Pilsner (4.7%)",
              "glutenfree":false,
              "price":65,
-             
+             "priceIntern":50,
              "volume":50.0,
              "active":true,
              "type":"regular"
@@ -37,26 +36,26 @@
           {
              "name":"Aass Mellompils (3.7%)",
              "volume":33.0,
-             "price":30,
+             "price":32.5,
              "priceIntern":25,
              "active":true,
              "glutenfree":false,
              "type":"regular"
           },
           {
-            "priceIntern":45,
             "name":"Aass Krystall Lite",
             "glutenfree":true,
             "price":50,
+            "priceIntern":45,
             "volume":50,
             "active":true,
             "type":"regular"
          },
          {
-            "priceIntern":45,
             "name":"Aass Vienna Lager Lite",
             "glutenfree":true,
-            "price":50,
+            "price":45,
+            "priceIntern":40,
             "volume":50,
             "active":true,
             "type":"regular"
@@ -84,7 +83,7 @@
              "volume":33.0,
              "price":50,
              "priceIntern":45,
-             "active":true,
+             "active":false,
              "glutenfree":true,
              "type":"regular"
           },
@@ -93,7 +92,7 @@
              "volume":50.0,
              "price":50,
              "priceIntern":45,
-             "active":true,
+             "active":false,
              "glutenfree":false,
              "type":"regular"
           },
@@ -102,7 +101,7 @@
             "volume":33.0,
             "price":60,
             "priceIntern":55,
-            "active":true,
+            "active":false,
             "glutenfree":false,
             "type":"regular"
          },
@@ -125,10 +124,10 @@
              "type":"regular"
           },
           {
-            "name":"Kirin Ichiban (5%)",
+            "name":"Kirin Ichiban (4.6%)",
             "volume":33.0,
-            "price":45,
-            "priceIntern":40,
+            "price":55,
+            "priceIntern":50,
             "active":true,
             "glutenfree":false,
             "type":"regular"
@@ -154,20 +153,21 @@
        "products":[
 
           {
-             "priceIntern":45,
              "name":"Aass IPA (4.7%)",
              "glutenfree":false,
              "price":50,
+             "priceIntern":45,
              "volume":50,
              "active":true,
              "type":"regular"
-          },          {
-            "priceIntern":45,
+          },          
+           {
             "name":"Aass Mango IPA (4.7%)",
             "glutenfree":false,
             "price":50,
+            "priceIntern":45,
             "volume":50,
-            "active":true,
+            "active":false,
             "type":"regular"
          },
           {
@@ -175,7 +175,7 @@
              "volume":33.0,
              "price":50,
              "priceIntern":45,
-             "active":true,
+             "active":false,
              "glutenfree":true,
              "type":"regular"
           }
@@ -189,7 +189,7 @@
              "volume":33.0,
              "price":65,
              "priceIntern":60,
-             "active":true,
+             "active":false,
              "glutenfree":false,
              "type":"regular"
           },
@@ -198,7 +198,7 @@
              "volume":33,
              "price":80,
              "priceIntern":75,
-             "active":true,
+             "active":false,
              "glutenfree":false,
              "type":"regular"
           }
@@ -212,7 +212,7 @@
              "volume":33.0,
              "price":45,
              "priceIntern":40,
-             "active":true,
+             "active":false,
              "glutenfree":false,
              "type":"regular"
           },
@@ -222,7 +222,7 @@
              "volume":25.0,
              "price":50,
              "priceIntern":45,
-             "active":true,
+             "active":false,
              "glutenfree":false,
              "type":"regular"
           },
