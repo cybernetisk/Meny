@@ -2,15 +2,6 @@
    {
       "products": [
          {
-            "name": "Kjellerens Hvitvin (11.5%)",
-            "volume": 12.0,
-            "price": 30,
-            "priceIntern": 25,
-            "active": true,
-            "glutenfree": true,
-            "type": "regular"
-         },
-         {
             "name": "Aass Pilsner (4.7%)",
             "glutenfree": false,
             "price": 65,
@@ -264,8 +255,8 @@
          {
             "name": "Mad Fish Passion Lite (4%)",
             "volume": 50.0,
-            "price": 55,
-            "priceIntern": 50,
+            "price": 60,
+            "priceIntern": 55,
             "active": true,
             "glutenfree": true,
             "type": "regular"
@@ -353,88 +344,6 @@
             "volume": 33,
             "price": 50,
             "priceIntern": 45,
-            "active": true,
-            "glutenfree": true,
-            "type": "regular"
-         }
-      ]
-   },
-   {
-      "products": [
-         {
-            "name": "Kjellerens Hvitvin (11.5%)",
-            "volume": 12.0,
-            "price": 30,
-            "priceIntern": 25,
-            "active": true,
-            "glutenfree": true,
-            "type": "regular"
-         }
-      ],
-      "name": "Vin"
-   },
-   {
-      "name": "Sprit under 22%",
-      "products": [
-         {
-            "name": "Koskenkorva Vodka (21%)",
-            "volume": 4.0,
-            "price": 25,
-            "priceIntern": 25,
-            "active": true,
-            "glutenfree": true,
-            "type": "regular"
-         },
-         {
-            "name": "Sm\u00e5 Sure (16.4%)",
-            "volume": 4.0,
-            "price": 25,
-            "priceIntern": 20,
-            "active": true,
-            "glutenfree": true,
-            "type": "regular"
-         },
-         {
-            "name": "Vodka Redbull",
-            "volume": 29,
-            "price": 60,
-            "priceIntern": 50,
-            "active": true,
-            "glutenfree": true,
-            "type": "regular"
-         },
-         {
-            "name": "Vodka Battery (Lemon lime Yuzu)",
-            "volume": 29,
-            "price": 60,
-            "priceIntern": 50,
-            "active": true,
-            "glutenfree": true,
-            "type": "regular"
-         },
-         {
-            "name": "Vodka Battery (Peachberry",
-            "volume": 29,
-            "price": 60,
-            "priceIntern": 50,
-            "active": true,
-            "glutenfree": true,
-            "type": "regular"
-         },
-         {
-            "name": "CYB-Mojito",
-            "volume": 29,
-            "price": 65,
-            "priceIntern": 60,
-            "active": true,
-            "glutenfree": true,
-            "type": "regular"
-         },
-         {
-            "name": "Elderflower Apertivo Spritz",
-            "volume": 29,
-            "price": 65,
-            "priceIntern": 60,
             "active": true,
             "glutenfree": true,
             "type": "regular"
@@ -536,7 +445,7 @@
          {
             "name": "Battery Peachberry",
             "volume": 50.0,
-            "price": 45,
+            "price": 35,
             "priceIntern": 40,
             "active": true,
             "glutenfree": true,
@@ -621,7 +530,7 @@
             "volume": 100.0,
             "price": 18,
             "priceIntern": 16,
-            "active": true,
+            "active": false,
             "glutenfree": false,
             "type": "snacks"
          },
@@ -630,7 +539,7 @@
             "volume": 100.0,
             "price": 23,
             "priceIntern": 20,
-            "active": true,
+            "active": false,
             "glutenfree": false,
             "type": "snacks"
          },
