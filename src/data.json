@@ -1,902 +1,667 @@
 [
-    {
-       "products":[
-          {
-             "name":"Kjellerens Hvitvin (11.5%)",
-             "volume":12.0,
-             "price":30,
-             "priceIntern":25,
-             "active":true,
-             "glutenfree":true,
-             "type":"regular"
-          },
-          {
-             "name":"Aass Pilsner (4.7%)",
-             "glutenfree":false,
-             "price":65,
-             "priceIntern":50,
-             "volume":50.0,
-             "active":true,
-             "type":"regular"
-          },
-          {
-             "priceIntern":50,
-             "name":"Aass Eplecider (4.7%)",
-             "glutenfree":true,
-             "price":65,
-             "volume":50.0,
-             "active":true,
-             "type":"regular"
-          }
-       ],
-       "name":"Tapp"
-    },
-    {
-       "products":[
-          {
-             "name":"Aass Mellompils (3.7%)",
-             "volume":33.0,
-             "price":32.5,
-             "priceIntern":25,
-             "active":true,
-             "glutenfree":false,
-             "type":"regular"
-          },
-          {
-            "name":"Aass Krystall Lite",
-            "glutenfree":true,
-            "price":50,
-            "priceIntern":45,
-            "volume":50,
-            "active":true,
-            "type":"regular"
+   {
+      "products": [
+         {
+            "name": "Kjellerens Hvitvin (11.5%)",
+            "volume": 12.0,
+            "price": 30,
+            "priceIntern": 25,
+            "active": true,
+            "glutenfree": true,
+            "type": "regular"
          },
          {
-            "name":"Aass Vienna Lager Lite",
-            "glutenfree":true,
-            "price":45,
-            "priceIntern":40,
-            "volume":50,
-            "active":true,
-            "type":"regular"
+            "name": "Aass Pilsner (4.7%)",
+            "glutenfree": false,
+            "price": 65,
+            "priceIntern": 50,
+            "volume": 50.0,
+            "active": true,
+            "type": "regular"
          },
-          {
-             "name":"Aass Blanc (4.7%)",
-             "volume":50.0,
-             "price":50,
-             "priceIntern":45,
-             "active":true,
-             "glutenfree":false,
-             "type":"regular"
-          },
-          {
-             "name":"Aass Bayer (4.7%)",
-             "volume":50.0,
-             "price":50,
-             "priceIntern":45,
-             "active":true,
-             "glutenfree":false,
-             "type":"regular"
-          },
-          {
-             "name":"Oslo Brewing R\u00f8dt, Hvitt og Bl\u00e5tt (4.7%)",
-             "volume":33.0,
-             "price":50,
-             "priceIntern":45,
-             "active":false,
-             "glutenfree":true,
-             "type":"regular"
-          },
-          {
-             "name":"Aass Halling (4.7%)",
-             "volume":50.0,
-             "price":50,
-             "priceIntern":45,
-             "active":false,
-             "glutenfree":false,
-             "type":"regular"
-          },
-          {
-            "name":"Aass Bock (6.5%)",
-            "volume":33.0,
-            "price":60,
-            "priceIntern":55,
-            "active":false,
-            "glutenfree":false,
-            "type":"regular"
-         },
-          {
-             "name":"Haandverkspils (4.5%)",
-             "volume":44.0,
-             "price":55,
-             "priceIntern":50,
-             "active":true,
-             "glutenfree":true,
-             "type":"regular"
-          },
-          {
-             "name":"Corona Extra (4.5%)",
-             "volume":35.5,
-             "price":55,
-             "priceIntern":50,
-             "active":true,
-             "glutenfree":false,
-             "type":"regular"
-          },
-          {
-            "name":"Kirin Ichiban (4.6%)",
-            "volume":33.0,
-            "price":55,
-            "priceIntern":50,
-            "active":true,
-            "glutenfree":false,
-            "type":"regular"
+         {
+            "name": "Z-cider Sweet Mango",
+            "volume": 40.0,
+            "price": 70,
+            "priceIntern": 65,
+            "active": true,
+            "glutenfree": false,
+            "type": "regular"
          }
-       ],
-       "name":"Ale & Lager"
-    },
-    {
-       "products":[
-          {
-             "name":"Paulaner Weissbier (5.5%)",
-             "volume":50.0,
-             "price":80,
-             "priceIntern":75,
-             "active":true,
-             "glutenfree":false,
-             "type":"regular"
-          }
-       ],
-       "name":"Belgianstyle & Weiss"
-    },
-    {
-       "products":[
-
-          {
-             "name":"Aass IPA (4.7%)",
-             "glutenfree":false,
-             "price":50,
-             "priceIntern":45,
-             "volume":50,
-             "active":true,
-             "type":"regular"
-          },          
-           {
-            "name":"Aass Mango IPA (4.7%)",
-            "glutenfree":false,
-            "price":50,
-            "priceIntern":45,
-            "volume":50,
-            "active":false,
-            "type":"regular"
-         },
-          {
-             "name":"Oslo Brewing Mellow Ipa (4.7%)",
-             "volume":33.0,
-             "price":50,
-             "priceIntern":45,
-             "active":false,
-             "glutenfree":true,
-             "type":"regular"
-          }
-       ],
-       "name":"IPA"
-    },
-    {
-       "products":[
-          {
-             "name":"Vocation Stormtrooper Shadow Stout (6.6%)",
-             "volume":33.0,
-             "price":65,
-             "priceIntern":60,
-             "active":false,
-             "glutenfree":false,
-             "type":"regular"
-          },
-          {
-             "name":"N\u00f8isom Bringeb\u00e6r og Chili Stout (9.2%)",
-             "volume":33,
-             "price":80,
-             "priceIntern":75,
-             "active":false,
-             "glutenfree":false,
-             "type":"regular"
-          }
-       ],
-       "name":"Stout & Porter"
-    },
-    {
-       "products":[
-          {
-             "name":"Berliner Weisse Raspberry (3.7%)",
-             "volume":33.0,
-             "price":45,
-             "priceIntern":40,
-             "active":false,
-             "glutenfree":false,
-             "type":"regular"
-          },
-
-          {
-             "name":"Lindemans Kriek (3.5%)",
-             "volume":25.0,
-             "price":50,
-             "priceIntern":45,
-             "active":false,
-             "glutenfree":false,
-             "type":"regular"
-          },
-          {
-            "name":"Bockor Kriek Max (3.5%)",
-            "volume":25.0,
-            "price":55,
-            "priceIntern":50,
-            "active":true,
-            "glutenfree":false,
-            "type":"regular"
-         },
-          {
-             "name":"Monkey Brew Siren Fruit Sour (4.7%)",
-             "volume":44.0,
-             "price":65,
-             "priceIntern":60,
-             "active":true,
-             "glutenfree":false,
-             "type":"regular"
-          },
-          {
-             "name":"Timmermans Lambicus Strawberry Thyme (4%)",
-             "volume":33.0,
-             "price":70,
-             "priceIntern":65,
-             "active":true,
-             "glutenfree":false,
-             "type":"regular"
-          },
-          {
-             "name":"Timmermans Lambicus Peche Cardamome (4%)",
-             "volume":33.0,
-             "price":70,
-             "priceIntern":65,
-             "active":true,
-             "glutenfree":false,
-             "type":"regular"
-          },
-          {
-             "name":"Eik & Tid Kurant (4.7%)",
-             "volume":33.0,
-             "price":75,
-             "priceIntern":70,
-             "active":true,
-             "glutenfree":false,
-             "type":"regular"
-          }
-       ],
-       "name":"Frukt\u00f8l & Sur\u00f8l"
-    },
-    {
-       "products":[
-
-          {
-             "name":"Monkey Brew Pomona Lemon Wheat (4.7%)",
-             "volume":44.0,
-             "price":65,
-             "priceIntern":60,
-             "active":true,
-             "glutenfree":false,
-             "type":"regular"
-          }
-       ],
-       "name":"Spesial\u00f8l"
-    },
-    {
-       "products":[
+      ],
+      "name": "Tapp"
+   },
+   {
+      "products": [
          {
-            "priceIntern":50,
-            "name":"Aass Cider Melon&Lime Sukkerfri",
-            "glutenfree":true,
-            "price":55,
-            "volume":50,
-            "active":true,
-            "type":"regular"
+            "name": "Aass Krystall Lite",
+            "glutenfree": true,
+            "price": 50,
+            "priceIntern": 45,
+            "volume": 50,
+            "active": true,
+            "type": "regular"
          },
          {
-            "priceIntern":50,
-            "name":"Aass Eplecider Tørr ",
-            "glutenfree":true,
-            "price":55,
-            "volume":50,
-            "active":true,
-            "type":"regular"
-         },
-          {
-             "name":"Vikbo R\u00f8d Rabarbracider (4.5%)",
-             "volume":33.0,
-             "price":45,
-             "priceIntern":40,
-             "active":true,
-             "glutenfree":true,
-             "type":"regular"
-          },
-          {
-             "name":"Galipette Cider Brut (4.5%)",
-             "volume":33.0,
-             "price":50,
-             "priceIntern":45,
-             "active":true,
-             "glutenfree":true,
-             "type":"regular"
-          },
-          {
-             "name":"Vossasider Eple & Bringeb\u00e6r (4.7%)",
-             "volume":33.0,
-             "price":50,
-             "priceIntern":45,
-             "active":true,
-             "glutenfree":true,
-             "type":"regular"
-          },
-
-          {
-             "priceIntern":65,
-             "name":"Z-Cider Mango (4.5%)",
-             "glutenfree":true,
-             "price":70,
-             "volume":50,
-             "active":true,
-             "type":"regular"
-          },
-          {
-            "priceIntern":65,
-            "name":"Z-Cider Dark Fruits (4.5%)",
-            "glutenfree":true,
-            "price":70,
-            "volume":50,
-            "active":true,
-            "type":"regular"
+            "name": "Aass Vienna Lager Lite",
+            "glutenfree": true,
+            "price": 45,
+            "priceIntern": 40,
+            "volume": 50,
+            "active": true,
+            "type": "regular"
          },
          {
-            "priceIntern":65,
-            "name":"Samuel Smith's Organic Perry Cider (5%)",
-            "glutenfree":true,
-            "price":70,
-            "volume":35.5,
-            "active":true,
-            "type":"regular"
+            "name": "Aass Bayer (4.7%)",
+            "volume": 50.0,
+            "price": 50,
+            "priceIntern": 45,
+            "active": true,
+            "glutenfree": false,
+            "type": "regular"
+         },
+         {
+            "name": "Aass Fatøl (4.7%)",
+            "volume": 50.0,
+            "price": 45,
+            "priceIntern": 40,
+            "active": true,
+            "glutenfree": false,
+            "type": "regular"
+         },
+         {
+            "name": "Aass Bock (6.5%)",
+            "volume": 33.0,
+            "price": 55,
+            "priceIntern": 50,
+            "active": true,
+            "glutenfree": false,
+            "type": "regular"
+         },
+         {
+            "name": "Haandverkspils (4.5%)",
+            "volume": 44.0,
+            "price": 55,
+            "priceIntern": 50,
+            "active": true,
+            "glutenfree": true,
+            "type": "regular"
+         },
+         {
+            "name": "Kirin Ichiban (5.0%)",
+            "volume": 33.0,
+            "price": 60,
+            "priceIntern": 55,
+            "active": true,
+            "glutenfree": false,
+            "type": "regular"
+         },
+         {
+            "name": "Småtøs American Blonde",
+            "volume": 33.0,
+            "price": 50,
+            "priceIntern": 45,
+            "active": true,
+            "glutenfree": false,
+            "type": "regular"
          }
-       ],
-       "name":"Cider"
-    },
-    {
-       "products":[
-          {
-             "name":"Ginger Joe (4%)",
-             "volume":33.0,
-             "price":50,
-             "priceIntern":45,
-             "active":true,
-             "glutenfree":false,
-             "type":"regular"
-          },
-          {
-             "name":"Crabbies Ginger Beer Raspberry (4%)",
-             "volume":33.0,
-             "price":55,
-             "priceIntern":45,
-             "active":true,
-             "glutenfree":false,
-             "type":"regular"
-          },
-          {
-             "name":"Xo Ingef\u00e6r\u00f8l Mango Nr.5 (5.1%)",
-             "volume":33.0,
-             "price":65,
-             "priceIntern":60,
-             "active":true,
-             "glutenfree":false,
-             "type":"regular"
-          }
-       ],
-       "name":"Gingerbeer"
-    },
-    {
-       "products":[
-          {
-             "name":"Gardsbrenneriet Pink Gin Tonic (4.5%)",
-             "volume":33.0,
-             "price":35,
-             "priceIntern":30,
-             "active":true,
-             "glutenfree":true,
-             "type":"regular"
-          },
-          {
-             "name":"Gardsbrenneriet Mandarina Spritz (4.5%)",
-             "volume":33.0,
-             "price":35,
-             "priceIntern":30,
-             "active":true,
-             "glutenfree":true,
-             "type":"regular"
-          },
-          {
-             "name":"Gardsbrenneriet Herbal Apple Mule (4.5%)",
-             "volume":33.0,
-             "price":35,
-             "priceIntern":30,
-             "active":true,
-             "glutenfree":true,
-             "type":"regular"
-          },
-
-          {
-             "name":"Skinny Bitch (sukkerfri) (4.5%)",
-             "volume":33.0,
-             "price":50,
-             "priceIntern":40,
-             "active":true,
-             "glutenfree":true,
-             "type":"regular"
-          },
-          {
-             "name":"Mad Fish Passion Lite (4%)",
-             "volume":50.0,
-             "price":55,
-             "priceIntern":50,
-             "active":true,
-             "glutenfree":true,
-             "type":"regular"
-          },
-          {
-             "name":"Himkok Oslo Paloma (4.7%)",
-             "volume":33.0,
-             "price":70,
-             "priceIntern":65,
-             "active":true,
-             "glutenfree":true,
-             "type":"regular"
-          },
-          {
-            "name":"Himkok Oslo Mule (4.7%)",
-            "volume":33.0,
-            "price":65,
-            "priceIntern":60,
-            "active":true,
-            "glutenfree":true,
-            "type":"regular"
+      ],
+      "name": "Ale & Lager"
+   },
+   {
+      "products": [
+         {
+            "name": "Paulaner Weissbier (5.5%)",
+            "volume": 50.0,
+            "price": 80,
+            "priceIntern": 75,
+            "active": true,
+            "glutenfree": false,
+            "type": "regular"
          },
          {
-            "name":"Himkok Snakebite (4.7%)",
-            "volume":33.0,
-            "price":70,
-            "priceIntern":65,
-            "active":true,
-            "glutenfree":true,
-            "type":"regular"
+            "name": "Hofbräu Münchner Weisse (4%)",
+            "volume": 50.0,
+            "price": 75,
+            "priceIntern": 70,
+            "active": true,
+            "glutenfree": false,
+            "type": "regular"
          }
-
-       ],
-       "name":"Rusbrus og Cocktails"
-    },
-    {
-       "name":"Hard Seltzer",
-       "products":[
-          {
-             "name":"White Claw Raspberry (4.5%)",
-             "volume":33.0,
-             "price":55,
-             "priceIntern":50,
-             "active":true,
-             "glutenfree":true,
-             "type":"regular"
-          },
-
-          {
-            "name":"White Claw Mango (4.5%)",
-            "volume":33.0,
-            "price":55,
-            "priceIntern":50,
-            "active":true,
-            "glutenfree":true,
-            "type":"regular"
+      ],
+      "name": "Belgianstyle & Weiss"
+   },
+   {
+      "products": [
+         {
+            "name": "Rygr Sure Birgitte Bringebær og Vanilje (4%)",
+            "volume": 33,
+            "price": 70,
+            "priceIntern": 65,
+            "active": true,
+            "glutenfree": false,
+            "type": "regular"
+         },
+         {
+            "name": "Lervig Human Nature Guava Sour (4%)",
+            "volume": 33,
+            "price": 55,
+            "priceIntern": 50,
+            "active": true,
+            "glutenfree": false,
+            "type": "regular"
          }
-       ]
-    },
-    {
-       "products":[
-          {
-             "name":"Kjellerens Hvitvin (11.5%)",
-             "volume":12.0,
-             "price":30,
-             "priceIntern":25,
-             "active":true,
-             "glutenfree":true,
-             "type":"regular"
-          }
-       ],
-       "name":"Vin"
-    },
-    {
-       "name":"Sprit under 22%",
-       "products":[
-          {
-             "name":"Koskenkorva Vodka (21%)",
-             "volume":4.0,
-             "price":25,
-             "priceIntern":25,
-             "active":true,
-             "glutenfree":true,
-             "type":"regular"
-          },
-          {
-             "name":"Sm\u00e5 Sure (16.4%)",
-             "volume":4.0,
-             "price":25,
-             "priceIntern":20,
-             "active":true,
-             "glutenfree":true,
-             "type":"regular"
-          },
-
-          {
-            "name":"Vodka Redbull",
-            "volume":29,
-            "price":60,
-            "priceIntern":50,
-            "active":true,
-            "glutenfree":true,
-            "type":"regular"
+      ],
+      "name": "Frukt\u00f8l & Sur\u00f8l"
+   },
+   {
+      "products": [
+      ],
+      "name": "Spesial\u00f8l"
+   },
+   {
+      "products": [
+         {
+            "priceIntern": 50,
+            "name": "Aass Cider Melon&Lime Sukkerfri",
+            "glutenfree": true,
+            "price": 55,
+            "volume": 50,
+            "active": true,
+            "type": "regular"
          },
-         
          {
-            "name":"Vodka Battery (Lemon lime Yuzu)",
-            "volume":29,
-            "price":60,
-            "priceIntern":50,
-            "active":true,
-            "glutenfree":true,
-            "type":"regular"
+            "priceIntern": 65,
+            "name": "Z-Cider Peach (4.5%)",
+            "glutenfree": true,
+            "price": 75,
+            "volume": 55,
+            "active": true,
+            "type": "regular"
          },
-         
          {
-            "name":"Vodka Battery (Peachberry",
-            "volume":29,
-            "price":60,
-            "priceIntern":50,
-            "active":true,
-            "glutenfree":true,
-            "type":"regular"
+            "priceIntern": 65,
+            "name": "Z-Cider Dark Fruits (4.5%)",
+            "glutenfree": true,
+            "price": 60,
+            "volume": 55,
+            "active": true,
+            "type": "regular"
          },
-         
          {
-            "name":"CYB-Mojito",
-            "volume":29,
-            "price":65,
-            "priceIntern":60,
-            "active":true,
-            "glutenfree":true,
-            "type":"regular"
-         },         
+            "priceIntern": 65,
+            "name": "Isbjørn Limonella Cider",
+            "glutenfree": true,
+            "price": 55,
+            "volume": 50,
+            "active": true,
+            "type": "regular"
+         },
          {
-            "name":"Elderflower Apertivo Spritz",
-            "volume":29,
-            "price":65,
-            "priceIntern":60,
-            "active":true,
-            "glutenfree":true,
-            "type":"regular"
+            "priceIntern": 65,
+            "name": "Isbjøn Cozmo Cider",
+            "glutenfree": true,
+            "price": 55,
+            "volume": 50,
+            "active": true,
+            "type": "regular"
+         },
+         {
+            "priceIntern": 65,
+            "name": "Samuel Smith's Organic Perry Cider (5%)",
+            "glutenfree": true,
+            "price": 60,
+            "volume": 35.5,
+            "active": true,
+            "type": "regular"
          }
-
-       ]
-    },
-    {
-       "products":[
-          {
-             "priceIntern":17,
-             "name":"Aass Uten",
-             "glutenfree":false,
-             "price":25,
-             "volume":33,
-             "active":true,
-             "type":"regular"
-          },
- 
-          {
-             "name":"RedBull",
-             "volume":25.0,
-             "price":25,
-             "priceIntern":20,
-             "active":true,
-             "glutenfree":true,
-             "type":"regular"
-          },
-          {
-             "name":"Fanta",
-             "volume":33.0,
-             "price":30,
-             "priceIntern":25,
-             "active":true,
-             "glutenfree":true,
-             "type":"regular"
-          },
-          {
-             "name":"Sprite",
-             "volume":33.0,
-             "price":30,
-             "priceIntern":25,
-             "active":true,
-             "glutenfree":true,
-             "type":"regular"
-          },
-          {
-            "name":"Villa",
-            "volume":50.0,
-            "price":30,
-            "priceIntern":25,
-            "active":true,
-            "glutenfree":true,
-            "type":"regular"
+      ],
+      "name": "Cider"
+   },
+   {
+      "products": [
+         {
+            "name": "Ginger Joe (4%)",
+            "volume": 33.0,
+            "price": 50,
+            "priceIntern": 45,
+            "active": true,
+            "glutenfree": false,
+            "type": "regular"
          },
          {
-            "name":"Villa lett",
-            "volume":50.0,
-            "price":30,
-            "priceIntern":25,
-            "active":true,
-            "glutenfree":true,
-            "type":"regular"
+            "name": "Crabbies Ginger Beer (4%)",
+            "volume": 33.0,
+            "price": 55,
+            "priceIntern": 45,
+            "active": true,
+            "glutenfree": false,
+            "type": "regular"
          },
          {
-            "name":"Solo Super",
-            "volume":50.0,
-            "price":30,
-            "priceIntern":25,
-            "active":true,
-            "glutenfree":true,
-            "type":"regular"
-         },
-         {
-            "name":"Mozell Light Drue&Eple",
-            "volume":50.0,
-            "price":30,
-            "priceIntern":25,
-            "active":true,
-            "glutenfree":true,
-            "type":"regular"
-         },
-         {
-            "name":"Oskar Sylte Ananasbrus",
-            "volume":50.0,
-            "price":25,
-            "priceIntern":30,
-            "active":true,
-            "glutenfree":true,
-            "type":"regular"
-         },
-         
-          {
-             "name":"Aass Eplemost",
-             "volume":33.0,
-             "price":35,
-             "priceIntern":20,
-             "active":true,
-             "glutenfree":true,
-             "type":"regular"
-          },
-          {
-             "name":"Ginger Joe Alkoholfri",
-             "volume":33.0,
-             "price":35,
-             "priceIntern":30,
-             "active":true,
-             "glutenfree":false,
-             "type":"regular"
-          },
-            {
-               "name":"Peroni Nastra Azzurro 0.0",
-               "volume":33.0,
-               "price":35,
-               "priceIntern":30,
-               "active":true,
-               "glutenfree":false,
-               "type":"regular"
-            },
-          {
-             "name":"Paulaner Hefe Alkoholfri",
-             "volume":50.0,
-             "price":40,
-             "priceIntern":35,
-             "active":true,
-             "glutenfree":false,
-             "type":"regular"
-          },
-          {
-            "name":"Battery Sour Apple",
-            "volume":50.0,
-            "price":45,
-            "priceIntern":40,
-            "active":true,
-            "glutenfree":true,
-            "type":"regular"
-         },
-         {
-            "name":"Battery Peachberry",
-            "volume":50.0,
-            "price":45,
-            "priceIntern":40,
-            "active":true,
-            "glutenfree":true,
-            "type":"regular"
-         },
-         {
-            "name":"Battery Zero Lemon Lime Yuzu ",
-            "volume":50.0,
-            "price":45,
-            "priceIntern":40,
-            "active":true,
-            "glutenfree":true,
-            "type":"regular"
-         },
-         {
-            "name":"Jarritos Mango",
-            "volume":37.0,
-            "price":35,
-            "priceIntern":30,
-            "active":true,
-            "glutenfree":true,
-            "type":"regular"
-         },
-         {
-            "name":"Jarritos Strawberry",
-            "volume":37.0,
-            "price":35,
-            "priceIntern":30,
-            "active":true,
-            "glutenfree":true,
-            "type":"regular"
+            "name": "Ginger Ninja Hot Chili Ginger Beer",
+            "volume": 33.0,
+            "price": 60,
+            "priceIntern": 55,
+            "active": true,
+            "glutenfree": false,
+            "type": "regular"
          }
-       ],
-       "name":"Alkoholfritt"
-    },
-    {
-       "products":[
-          {
-             "priceIntern":7,
-             "name":"Kinder",
-             "glutenfree":true,
-             "price":10,
-             "volume":21,
-             "active":true,
-             "type":"snacks"
-          },
-          {
-             "name":"Aunt Mabels Muffin (vegansk alternativ tilgjengelig)",
-             "alternativ:":["M\u00F8ørk eller lys sjokolade", "Gulrot", "Bl\u00E5b\u00E6r", "Vegansk sjokolade"],
-             "volume":100.0,
-             "price":18,
-             "priceIntern":16,
-             "active":true,
-             "glutenfree":false,
-             "type":"snacks"
-          },
-          {
-            "name":"Aunt Mabels Cookie",
-            "volume":100.0,
-            "price":23,
-            "priceIntern":20,
-            "active":true,
-            "glutenfree":false,
-            "type":"snacks"
-         },
-          {
-             "name":"Maarud Sour Cream",
-             "volume":40.0,
-             "price":20,
-             "priceIntern":15,
-             "active":true,
-             "glutenfree":true,
-             "type":"regular"
-          },
-          {
-            "name":"Maarud Paprika",
-            "volume":40.0,
-            "price":20,
-            "priceIntern":15,
-            "active":true,
-            "glutenfree":true,
-            "type":"regular"
+      ],
+      "name": "Gingerbeer"
+   },
+   {
+      "products": [
+         {
+            "name": "Handverkscocktail Herbal Apple Mule (4.5%)",
+            "volume": 33.0,
+            "price": 40,
+            "priceIntern": 35,
+            "active": true,
+            "glutenfree": true,
+            "type": "regular"
          },
          {
-            "name":"Maarud Paprika",
-            "volume":40.0,
-            "price":20,
-            "priceIntern":15,
-            "active":true,
-            "glutenfree":true,
-            "type":"regular"
-         },
-          {
-            "name":"Kinder Bueno",
-            "volume":43.0,
-            "price":20,
-            "priceIntern":15,
-            "active":true,
-            "glutenfree":true,
-            "type":"regular"
+            "name": "Mad Fish Passion Lite (4%)",
+            "volume": 50.0,
+            "price": 55,
+            "priceIntern": 50,
+            "active": true,
+            "glutenfree": true,
+            "type": "regular"
          },
          {
-            "name":"Haribo Mega roulette",
-            "volume":45.0,
-            "price":17,
-            "priceIntern":12,
-            "active":true,
-            "glutenfree":true,
-            "type":"regular"
+            "name": "Mad Fish Pink (4%)",
+            "volume": 50.0,
+            "price": 60,
+            "priceIntern": 55,
+            "active": true,
+            "glutenfree": true,
+            "type": "regular"
          },
          {
-            "name":"Tutti Frutti Passion",
-            "volume":80.0,
-            "price":30,
-            "priceIntern":25,
-            "active":true,
-            "glutenfree":true,
-            "type":"regular"
+            "name": "Himkok Oslo Paloma (4.7%)",
+            "volume": 33.0,
+            "price": 75,
+            "priceIntern": 65,
+            "active": true,
+            "glutenfree": true,
+            "type": "regular"
          },
          {
-            "name":"Sure Jordgubbar",
-            "volume":80.0,
-            "price":30,
-            "priceIntern":25,
-            "active":true,
-            "glutenfree":true,
-            "type":"regular"
+            "name": "Himkok Oslo Mule (4.7%)",
+            "volume": 33.0,
+            "price": 65,
+            "priceIntern": 60,
+            "active": true,
+            "glutenfree": true,
+            "type": "regular"
          },
          {
-            "name":"Gomp",
-            "volume":25.0,
-            "price":10,
-            "priceIntern":6,
-            "active":true,
-            "glutenfree":true,
-            "type":"regular"
+            "name": "Himkok Snakebite (4.7%)",
+            "volume": 33.0,
+            "price": 70,
+            "priceIntern": 65,
+            "active": true,
+            "glutenfree": true,
+            "type": "regular"
          },
          {
-            "name":"Smash! Bar Salt Karamell",
-            "volume":40.0,
-            "price":25,
-            "priceIntern":20,
-            "active":true,
-            "glutenfree":true,
-            "type":"regular"
+            "name": "Italian Spritz",
+            "volume": 33.0,
+            "price": 50,
+            "priceIntern": 45,
+            "active": true,
+            "glutenfree": true,
+            "type": "regular"
          },
          {
-            "name":"Smash! pose",
-            "volume":100.0,
-            "price":55,
-            "priceIntern":50,
-            "active":true,
-            "glutenfree":true,
-            "type":"regular"
-         },
-         {
-            "name":"Stratos bar",
-            "volume":65.0,
-            "price":30,
-            "priceIntern":25,
-            "active":true,
-            "glutenfree":true,
-            "type":"regular"
-         },
-         {
-            "name":"Drumstick Lolly Mega",
-            "volume":28.0,
-            "price":7,
-            "priceIntern":5,
-            "active":true,
-            "glutenfree":true,
-            "type":"regular"
+            "name": "Sangria",
+            "volume": 33.0,
+            "price": 50,
+            "priceIntern": 45,
+            "active": true,
+            "glutenfree": true,
+            "type": "regular"
          }
-       ],
-       "name":"Snacks"
-    }
- ]
+      ],
+      "name": "Rusbrus og Cocktails"
+   },
+   {
+      "name": "Hard Seltzer",
+      "products": [
+         {
+            "name": "Kald Strawberry & Kiwi",
+            "volume": 33,
+            "price": 45,
+            "priceIntern": 40,
+            "active": true,
+            "glutenfree": true,
+            "type": "regular"
+         },
+         {
+            "name": "Kald Raspberry & Peach",
+            "volume": 33,
+            "price": 45,
+            "priceIntern": 40,
+            "active": true,
+            "glutenfree": true,
+            "type": "regular"
+         },
+         {
+            "name": "Aass Seltzer Nordiske bær",
+            "volume": 33,
+            "price": 50,
+            "priceIntern": 45,
+            "active": true,
+            "glutenfree": true,
+            "type": "regular"
+         }
+      ]
+   },
+   {
+      "products": [
+         {
+            "name": "Kjellerens Hvitvin (11.5%)",
+            "volume": 12.0,
+            "price": 30,
+            "priceIntern": 25,
+            "active": true,
+            "glutenfree": true,
+            "type": "regular"
+         }
+      ],
+      "name": "Vin"
+   },
+   {
+      "name": "Sprit under 22%",
+      "products": [
+         {
+            "name": "Koskenkorva Vodka (21%)",
+            "volume": 4.0,
+            "price": 25,
+            "priceIntern": 25,
+            "active": true,
+            "glutenfree": true,
+            "type": "regular"
+         },
+         {
+            "name": "Sm\u00e5 Sure (16.4%)",
+            "volume": 4.0,
+            "price": 25,
+            "priceIntern": 20,
+            "active": true,
+            "glutenfree": true,
+            "type": "regular"
+         },
+         {
+            "name": "Vodka Redbull",
+            "volume": 29,
+            "price": 60,
+            "priceIntern": 50,
+            "active": true,
+            "glutenfree": true,
+            "type": "regular"
+         },
+         {
+            "name": "Vodka Battery (Lemon lime Yuzu)",
+            "volume": 29,
+            "price": 60,
+            "priceIntern": 50,
+            "active": true,
+            "glutenfree": true,
+            "type": "regular"
+         },
+         {
+            "name": "Vodka Battery (Peachberry",
+            "volume": 29,
+            "price": 60,
+            "priceIntern": 50,
+            "active": true,
+            "glutenfree": true,
+            "type": "regular"
+         },
+         {
+            "name": "CYB-Mojito",
+            "volume": 29,
+            "price": 65,
+            "priceIntern": 60,
+            "active": true,
+            "glutenfree": true,
+            "type": "regular"
+         },
+         {
+            "name": "Elderflower Apertivo Spritz",
+            "volume": 29,
+            "price": 65,
+            "priceIntern": 60,
+            "active": true,
+            "glutenfree": true,
+            "type": "regular"
+         }
+      ]
+   },
+   {
+      "products": [
+         {
+            "priceIntern": 17,
+            "name": "Paulaner Weissbier 0%",
+            "glutenfree": false,
+            "price": 40,
+            "volume": 33,
+            "active": true,
+            "type": "regular"
+         },
+         {
+            "priceIntern": 17,
+            "name": "Peroni",
+            "glutenfree": false,
+            "price": 35,
+            "volume": 33,
+            "active": true,
+            "type": "regular"
+         },
+         {
+            "priceIntern": 17,
+            "name": "Aass Uten",
+            "glutenfree": false,
+            "price": 30,
+            "volume": 33,
+            "active": true,
+            "type": "regular"
+         },
+         {
+            "name": "Villa",
+            "volume": 50.0,
+            "price": 30,
+            "priceIntern": 25,
+            "active": true,
+            "glutenfree": true,
+            "type": "regular"
+         },
+         {
+            "name": "Villa lett",
+            "volume": 50.0,
+            "price": 30,
+            "priceIntern": 25,
+            "active": true,
+            "glutenfree": true,
+            "type": "regular"
+         },
+         {
+            "name": "Solo",
+            "volume": 50.0,
+            "price": 30,
+            "priceIntern": 25,
+            "active": true,
+            "glutenfree": true,
+            "type": "regular"
+         },
+         {
+            "name": "Solo Super",
+            "volume": 50.0,
+            "price": 30,
+            "priceIntern": 25,
+            "active": true,
+            "glutenfree": true,
+            "type": "regular"
+         },
+         {
+            "name": "Aass Eplemost",
+            "volume": 33.0,
+            "price": 35,
+            "priceIntern": 20,
+            "active": true,
+            "glutenfree": true,
+            "type": "regular"
+         },
+         {
+            "name": "Ginger Joe Alkoholfri",
+            "volume": 33.0,
+            "price": 35,
+            "priceIntern": 30,
+            "active": true,
+            "glutenfree": false,
+            "type": "regular"
+         },
+         {
+            "name": "Battery Energy",
+            "volume": 50.0,
+            "price": 35,
+            "priceIntern": 30,
+            "active": true,
+            "glutenfree": true,
+            "type": "regular"
+         },
+         {
+            "name": "Battery Peachberry",
+            "volume": 50.0,
+            "price": 45,
+            "priceIntern": 40,
+            "active": true,
+            "glutenfree": true,
+            "type": "regular"
+         },
+         {
+            "name": "Battery Pearberry ",
+            "volume": 50.0,
+            "price": 40,
+            "priceIntern": 35,
+            "active": true,
+            "glutenfree": true,
+            "type": "regular"
+         },
+         {
+            "name": "Battery Charged Raspberry & Pomegranate",
+            "volume": 50.0,
+            "price": 40,
+            "priceIntern": 35,
+            "active": true,
+            "glutenfree": true,
+            "type": "regular"
+         },
+         {
+            "name": "Jarritos Mango",
+            "volume": 37.0,
+            "price": 35,
+            "priceIntern": 30,
+            "active": true,
+            "glutenfree": true,
+            "type": "regular"
+         },
+         {
+            "name": "Jarritos Strawberry",
+            "volume": 37.0,
+            "price": 35,
+            "priceIntern": 30,
+            "active": true,
+            "glutenfree": true,
+            "type": "regular"
+         },
+         {
+            "name": "Jarritos Mexican cola",
+            "volume": 37.0,
+            "price": 35,
+            "priceIntern": 30,
+            "active": true,
+            "glutenfree": true,
+            "type": "regular"
+         },
+         {
+            "name": "Jarritos Guava",
+            "volume": 37.0,
+            "price": 35,
+            "priceIntern": 30,
+            "active": true,
+            "glutenfree": true,
+            "type": "regular"
+         }
+      ],
+      "name": "Alkoholfritt"
+   },
+   {
+      "products": [
+         {
+            "priceIntern": 7,
+            "name": "Kinder",
+            "glutenfree": true,
+            "price": 10,
+            "volume": 21,
+            "active": true,
+            "type": "snacks"
+         },
+         {
+            "name": "Aunt Mabels Muffin (vegansk alternativ tilgjengelig)",
+            "alternativ:": [
+               "M\u00f8\u00c3\u00b8rk eller lys sjokolade",
+               "Gulrot",
+               "Bl\u00e5b\u00e6r",
+               "Vegansk sjokolade"
+            ],
+            "volume": 100.0,
+            "price": 18,
+            "priceIntern": 16,
+            "active": true,
+            "glutenfree": false,
+            "type": "snacks"
+         },
+         {
+            "name": "Aunt Mabels Cookie",
+            "volume": 100.0,
+            "price": 23,
+            "priceIntern": 20,
+            "active": true,
+            "glutenfree": false,
+            "type": "snacks"
+         },
+         {
+            "name": "Maarud Sour Cream",
+            "volume": 40.0,
+            "price": 20,
+            "priceIntern": 15,
+            "active": true,
+            "glutenfree": true,
+            "type": "regular"
+         },
+         {
+            "name": "Maarud Salt og pepper",
+            "volume": 40.0,
+            "price": 20,
+            "priceIntern": 15,
+            "active": true,
+            "glutenfree": true,
+            "type": "regular"
+         },
+         {
+            "name": "Maarud Paprika",
+            "volume": 40.0,
+            "price": 20,
+            "priceIntern": 15,
+            "active": true,
+            "glutenfree": true,
+            "type": "regular"
+         }
+      ],
+      "name": "Snacks"
+   }
+]
