@@ -27,7 +27,7 @@
          {
             "name": "Aass Krystall Lite",
             "glutenfree": true,
-            "price": 50,
+            "price": 60,
             "priceIntern": 45,
             "volume": 50,
             "active": true,
@@ -36,7 +36,7 @@
          {
             "name": "Aass Vienna Lager Lite",
             "glutenfree": true,
-            "price": 45,
+            "price": 60,
             "priceIntern": 40,
             "volume": 50,
             "active": true,
@@ -45,7 +45,7 @@
          {
             "name": "Aass Bayer (4.7%)",
             "volume": 50.0,
-            "price": 50,
+            "price": 60,
             "priceIntern": 45,
             "active": true,
             "glutenfree": false,
@@ -54,7 +54,7 @@
          {
             "name": "Aass Fatøl (4.7%)",
             "volume": 50.0,
-            "price": 45,
+            "price": 60,
             "priceIntern": 40,
             "active": true,
             "glutenfree": false,
